@@ -220,8 +220,7 @@ function App() {
               backgroundColor: "#f8f8f8",
               padding: 24,
               borderRadius: 0,
-              border: "5px",
-              border-color: "#d1d0ce",
+              border: "5px #d1d0ce",
               boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)",
             }}
           >
