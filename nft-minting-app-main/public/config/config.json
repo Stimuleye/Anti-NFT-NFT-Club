@@ -1,5 +1,5 @@
 {
-  "CONTRACT_ADDRESS": "0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+  "CONTRACT_ADDRESS": "0xD8Bf968F83C838f35bD72884d7d62e4D9C4Ba9d7",
   "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
   "NETWORK": {
     "NAME": "Polygon",
@@ -7,12 +7,12 @@
     "ID": 137
   },
   "NFT_NAME": "Blockchain Sneakers",
-  "SYMBOL": "BSNKRS",
+  "SYMBOL": "BCS",
   "MAX_SUPPLY": 50,
   "WEI_COST": 4000000000000000000,
   "DISPLAY_COST": 4,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/blockchainsneakers",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/blockchain-sneakers",
   "SHOW_BACKGROUND": true
 }
