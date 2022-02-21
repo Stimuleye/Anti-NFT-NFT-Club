@@ -6,3 +6,10 @@
   --accent: #ffffff;
   --accent-text: #a1a1a1;
 }
+
+#page {
+
+  width: 90%;
+  height: 640px;
+  background-color: #ffffff;
+}
