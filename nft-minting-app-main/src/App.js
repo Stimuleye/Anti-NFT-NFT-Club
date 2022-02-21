@@ -416,7 +416,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the Polygon Network (
+            Please make sure you are connected to the network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
@@ -427,6 +427,8 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
+            If you only have ETH on the Ethereum main network, you will need to bridge it to Polygon.
+            Blockchain Sneakers strongly recommends using the Umbria Narni Bridge.
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
