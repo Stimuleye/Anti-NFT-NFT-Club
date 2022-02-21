@@ -2,14 +2,14 @@
   --primary: #ffffff;
   --primary-text: #000000;
   --secondary: #000000;
-  --secondary-text: #6e6e6e;
+  --secondary-text: #ffffff;
   --accent: #ffffff;
   --accent-text: #000000;
 }
 
 #page {
 
-  width: 90%;
+  width: 100%;
   height: 640px;
-  background-color: #e6e6e6;
+  background-color: #f8f8f8;
 }
