@@ -220,7 +220,8 @@ function App() {
               backgroundColor: "#f8f8f8",
               padding: 24,
               borderRadius: 0,
-              border: "5px #d1d0ce",
+              border: "5px",
+              border-color: "#d1d0ce",
               boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)",
             }}
           >
@@ -229,7 +230,7 @@ function App() {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                color: "var(--accent-text)",
+                color: "#000000",
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
@@ -401,13 +402,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
               
-        // <s.Container flex={1} jc={"center"} ai={"center"}>
-        //    <StyledImg
-        //      alt={"example"}
-        //      src={"/config/images/example.gif"}
-        //      style={{ transform: "scaleX(-1)" }}
-        //     />
-        // </s.Container>
+    
               
         </ResponsiveWrapper>
         <s.SpacerMedium />
