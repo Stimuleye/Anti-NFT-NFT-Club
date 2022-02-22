@@ -214,7 +214,7 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "#ffffff",
-              margin-top: 60;
+              margin-top: 60,
               padding: 24,
               borderRadius: 0,
               border: "5px #000000",
