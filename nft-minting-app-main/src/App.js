@@ -213,8 +213,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "#ffffff",
-              top: 60,
+              backgroundColor: "#e1dfe0",
               padding: 24,
               borderRadius: 0,
               border: "5px #000000",
@@ -396,15 +395,14 @@ function App() {
             )}
             <s.SpacerMedium />
           </s.Container>
-          <s.SpacerLarge />
               
+
     <s.Container flex={1} jc={"center"} ai={"center"}>
         <StyledImg
         		alt={"example"}
         		src={"/config/images/example.gif"}
          />
      </s.Container>
-
 
               
         </ResponsiveWrapper>
