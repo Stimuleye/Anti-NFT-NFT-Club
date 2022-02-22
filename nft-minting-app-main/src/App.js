@@ -203,7 +203,7 @@ function App() {
           >
         
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 24, margin: 70 }} test>
 
           
           
