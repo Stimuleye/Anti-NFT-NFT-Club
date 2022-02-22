@@ -23,16 +23,15 @@ h1 .desc {
 #page {
   align: center;
   padding: 25px 25px;
-  width: 100%;
+  width: 80%;
   height: 100%;
   background-color: #f8f8f8;
 }
 #story {
-  float: right;
   background-color: #ffffff;
   padding: 30px;
   width: 60%;
-  text-align: left;
+  text-align: center;
   font-size: 26px;
 }
 
