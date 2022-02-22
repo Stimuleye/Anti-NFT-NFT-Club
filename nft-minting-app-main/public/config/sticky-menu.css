@@ -53,7 +53,7 @@ html {
     width: 60%;
 }
 .welcome-section {
-    height: auto;
+    height: 100%;
     align-items: center;
     padding-top: 115px;
     text-align: center;
