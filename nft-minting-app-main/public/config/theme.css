@@ -36,10 +36,11 @@
   background-color: #f8f8f8;
 }
 #story {
+  float: right;
   background-color: #ffffff;
   padding: 15px;
   width: 60%;
-  text-align: center;
+  text-align: left;
   font-size: 26px;
 }
 
