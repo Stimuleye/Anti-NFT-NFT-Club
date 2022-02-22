@@ -410,21 +410,10 @@ function App() {
               
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-         
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            If you only have ETH on the Ethereum main network, you will need to bridge it to Polygon.
-            Blockchain Sneakers strongly recommends using the Umbria Narni Bridge.
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
-        </s.Container>
+ 
+              
+              
+              
       </s.Container>
     </s.Screen>
   );
