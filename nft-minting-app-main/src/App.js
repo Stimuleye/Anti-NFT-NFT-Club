@@ -203,7 +203,7 @@ function App() {
           >
         
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24, marginTop: 30 }} test>
+        <ResponsiveWrapper flex={1} style={{ paddingLeft: 24, paddingRight: 24 }} test>
 
           
           
@@ -214,7 +214,9 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "#eaeaea",
-              
+              paddingLeft: 24,
+              paddingRight: 24,
+              marginTop: 0,
               borderRadius: 30,
               border: "5px #000000",
               boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)",
