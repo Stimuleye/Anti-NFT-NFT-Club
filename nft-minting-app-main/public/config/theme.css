@@ -15,7 +15,7 @@
 
 /* Page */
 
-h1 {
+h1 .desc {
   margin: .67em 0;
   font-size: 30px;
 }
