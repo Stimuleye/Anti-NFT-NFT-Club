@@ -45,15 +45,20 @@ html {
 .top-section {
     height: auto;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 130px;
     text-align: center;
     background: #ffffff;
 }
 .top-section img {
     width: 60%;
 }
+@media(min-width:768px) {
+    .top-section img {
+    width: 60%;
+	}
+}
 
-@media(min-width:350px) {
+@media(min-width:320px) {
     .top-section img {
     width: 80%;
 	}
