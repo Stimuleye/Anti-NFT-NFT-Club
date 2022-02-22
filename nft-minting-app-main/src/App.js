@@ -215,6 +215,8 @@ function App() {
             style={{
               backgroundColor: "#e1dfe0",
               padding: 24,
+              margin: 70;
+
               borderRadius: 0,
               border: "5px #000000",
               boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)",
