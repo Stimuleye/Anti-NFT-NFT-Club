@@ -49,20 +49,20 @@ html {
     text-align: center;
     background: #ffffff;
 }
-.top-section img {
-    width: 60%;
+@media(min-width:320px) {
+    .top-section img {
+    width: 80%;
+	}
 }
 @media(min-width:768px) {
     .top-section img {
     width: 60%;
 	}
 }
-
-@media(min-width:320px) {
-    .top-section img {
-    width: 80%;
-	}
+.top-section img {
+    width: 60%;
 }
+
 	
 .welcome-section {
     height: 100%;
