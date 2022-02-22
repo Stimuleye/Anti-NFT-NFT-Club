@@ -9,33 +9,21 @@
 
 /* Navigagtion */
 
-ul {
+.nav {
+  background-color: yellow; 
   list-style-type: none;
+  text-align: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: none;
 }
 
-li {
-  float: right;
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
 
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 30px 16px;
-  text-decoration: none;
-}
 
-li a:hover:not(.active) {
-  background-color: none;
-}
-
-.active {
-  background-color: none;
-}
 
 /* Page */
 
