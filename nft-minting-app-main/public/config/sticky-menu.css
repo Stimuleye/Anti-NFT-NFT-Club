@@ -42,6 +42,16 @@ html {
     background-color: #337AB7;
     color: #FFF;
 }
+.top-section {
+    height: auto;
+    align-items: center;
+    padding-top: 115px;
+    text-align: center;
+    background: #ffffff;
+}
+.top-section img {
+    width: 60%;
+}
 .welcome-section {
     height: auto;
     align-items: center;
@@ -49,9 +59,7 @@ html {
     text-align: center;
     background: #ffffff;
 }
-.welcome-section img {
-    width: 60%;
-}
+
 .about-section {
     height: 100%;
     padding-top: 150px;
