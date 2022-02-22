@@ -201,9 +201,7 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
+        
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
 
@@ -217,7 +215,6 @@ function App() {
             style={{
               backgroundColor: "#ffffff",
               padding: 24,
-                   width: 60%, 
               borderRadius: 0,
               border: "5px #000000",
               boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)",
