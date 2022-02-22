@@ -26,6 +26,16 @@ h1 .desc {
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-width: 320px) {
+#story {
+  line-height: auto;
+  padding: 30px;
+  width: 90%;
+  text-align: center;
+  font-size: 26px;
+}
+}
+@media only screen and (max-width: 768px) {
 #story {
   line-height: auto;
   padding: 30px;
@@ -33,6 +43,15 @@ h1 .desc {
   text-align: center;
   font-size: 26px;
 }
+}
+#story {
+  line-height: auto;
+  padding: 30px;
+  width: 60%;
+  text-align: center;
+  font-size: 26px;
+}
+
 
 
   
