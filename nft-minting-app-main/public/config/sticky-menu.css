@@ -43,11 +43,11 @@ html {
     color: #FFF;
 }
 .welcome-section {
-    height: 60%;
+    height: auto;
     align-items: center;
     padding-top: 150px;
     text-align: center;
-    background: #eaeaea;
+    background: #ffffff;
 }
 .welcome-section img {
     width: 60%;
