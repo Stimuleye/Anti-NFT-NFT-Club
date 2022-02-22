@@ -9,7 +9,13 @@
 
 /* Navigagtion */
 
+#navigate {
+  width: 100%;
+  margin: 20px;
+}
+
 .home {
+  align: left;
   float: left;
 }
 
