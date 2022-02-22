@@ -79,12 +79,12 @@ export const StyledImg = styled.img`
   border: 0px dashed var(--secondary);
   background-color: none;
   border-radius: 100%;
-  width: 300px;
+  width: 200px;
   @media (min-width: 900px) {
-    width: 350px;
+    width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 400px;
+    width: 300px;
   }
   transition: width 0.5s;
 `;
@@ -214,7 +214,7 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "#ffffff",
-              margin-top: 60,
+              top: 60,
               padding: 24,
               borderRadius: 0,
               border: "5px #000000",
