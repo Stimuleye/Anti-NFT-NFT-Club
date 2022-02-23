@@ -26,20 +26,26 @@ h1 .desc {
   width: 100%;
   height: auto;
 }
-
+@media only screen and (max-width: 1280px) {
+#story {
+    line-height: normal;
+    width: 60%;
+    text-align: center;
+    font-size: 26px;
+}
 @media only screen and (max-width: 768px) {
 #story {
   line-height: normal;
   padding: 30px;
-  width: 70%;
+  width: 90%;
   text-align: center;
   font-size: 26px;
 }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 390px) {
 #story {
     line-height: normal;
-    width: 100%;
+    width: 90%;
     text-align: center;
     font-size: 26px;
 }
