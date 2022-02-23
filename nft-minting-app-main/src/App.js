@@ -71,9 +71,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 150px;
+  width: 200px;
   @media (min-width: 767px) {
-    width: 200px;
+    width: 250px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -84,12 +84,12 @@ export const StyledImg = styled.img`
   border: 0px dashed var(--secondary);
   background-color: none;
   border-radius: 100%;
-  width: 150px;
+  width: 200px;
   @media (min-width: 900px) {
-    width: 200px;
+    width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 250px;
+    width: 300px;
   }
   transition: width 0.5s;
 `;
