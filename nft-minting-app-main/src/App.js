@@ -213,7 +213,7 @@ function App() {
 
           >
         
-        <ResponsiveWrapper flex={1} style={{ paddingLeft: 24, paddingRight: 24, width: .50 }} test>
+        <ResponsiveWrapper flex={1} style={{ paddingLeft: 24, paddingRight: 24 }} test>
 
           
           
