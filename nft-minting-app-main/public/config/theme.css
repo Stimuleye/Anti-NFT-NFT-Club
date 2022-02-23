@@ -22,9 +22,9 @@ h1 .desc {
 
 #page {
   align: center;
-  padding: 25px 0px;
+  padding: 0px 0px;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 320px) {
 #story {
