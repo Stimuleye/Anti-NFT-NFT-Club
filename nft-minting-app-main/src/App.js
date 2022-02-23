@@ -194,6 +194,14 @@ function App() {
   }, [blockchain.account]);
 
   return (
+    
+       <s.Container flex={1} jc={"center"} ai={"center"}>
+        <StyledImg
+        		alt={"example"}
+        		src={"/config/images/example.gif"}
+         />
+     </s.Container>
+
     <s.Screen>
       <s.Container
         flex={1}
@@ -213,12 +221,12 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "#eaeaea",
+              backgroundColor: "#ffffff",
               paddingLeft: 24,
               paddingRight: 24,
               marginTop: 30,
               borderRadius: 30,
-              border: "5px #000000",
+              border: "solid 5px rgb(195 45 52)",
               boxShadow: "0px 11px 9px 0px rgba(0,0,0,0.3)",
             }}
           >
@@ -399,12 +407,7 @@ function App() {
           </s.Container>
               
 
-    <s.Container flex={1} jc={"center"} ai={"center"}>
-        <StyledImg
-        		alt={"example"}
-        		src={"/config/images/example.gif"}
-         />
-     </s.Container>
+ 
 
               
         </ResponsiveWrapper>
