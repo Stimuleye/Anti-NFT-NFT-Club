@@ -195,14 +195,17 @@ function App() {
 
   return (
     
-       <s.Container flex={1} jc={"center"} ai={"center"}>
+     
+
+    <s.Screen>
+    
+      <s.Container flex={1} jc={"center"} ai={"center"}>
         <StyledImg
         		alt={"example"}
         		src={"/config/images/example.gif"}
          />
      </s.Container>
 
-    <s.Screen>
       <s.Container
         flex={1}
         ai={"center"}
