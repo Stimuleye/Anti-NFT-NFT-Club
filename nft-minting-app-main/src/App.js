@@ -232,8 +232,8 @@ function App() {
               paddingRight: 24,
               marginTop: 30,
               borderRadius: 30,
-              border: "solid 5px rgb(195 45 52)",
-              boxShadow: "0px 11px 9px 0px rgba(0,0,0,0.3)",
+              border: "0px rgb(195 45 52)",
+              boxShadow: "0px 11px 9px 0px rgba(0,0,0,0)",
             }}
           >
             <s.TextTitle
