@@ -28,10 +28,10 @@ h1 .desc {
 }
 @media only screen and (max-width: 320px) {
 #story {
-  line-height: auto;
-  width: 90%;
-  text-align: center;
-  font-size: 26px;
+    line-height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
 }
 }
 @media only screen and (max-width: 768px) {
