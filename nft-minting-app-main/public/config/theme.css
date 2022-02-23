@@ -45,8 +45,7 @@ h1 .desc {
 }
 #story {
   line-height: auto;
-  padding: 30px;
-  width: 60%;
+  width: 100%;
   text-align: center;
   font-size: 26px;
 }
